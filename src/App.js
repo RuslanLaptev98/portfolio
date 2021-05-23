@@ -42,14 +42,6 @@ function App() {
                         <Typography>
                             Ruslan Laptev
                             <a
-                                href="/"
-                                alt="Resume"
-                                title="Resume"
-                                className="icons-link"
-                            >
-                                <i className="fas fa-file"></i>
-                            </a>
-                            <a
                                 href="https://github.com/RuslanLaptev98"
                                 alt="GitHub"
                                 title="GitHub"
@@ -64,6 +56,15 @@ function App() {
                                 className="icons-link"
                             >
                                 <i className="fab fa-linkedin-in"></i>
+                            </a>
+                            <a
+                                href="https://ruslanlaptev98.github.io/resume/"
+                                alt="Resume"
+                                title="Resume"
+                                className="icons-link"
+                                target="_blank"
+                            >
+                                <i className="fas fa-file"></i>
                             </a>
                         </Typography>
                     </Toolbar>

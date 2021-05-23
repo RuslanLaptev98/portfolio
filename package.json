@@ -1,5 +1,4 @@
 {
-    "homepage": "https://RuslanLaptev98/github.io/portfolio",
     "name": "portfolio",
     "version": "0.1.0",
     "private": true,
@@ -15,6 +14,7 @@
         "web-vitals": "^1.1.2"
     },
     "scripts": {
+        "watch": "webpack-dev-server --progress",
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build",
         "start": "react-scripts start",
@@ -41,6 +41,22 @@
         ]
     },
     "devDependencies": {
-        "gh-pages": "^3.1.0"
-    }
+        "@babel/preset-react": "^7.13.13",
+        "babel-loader": "^8.1.0",
+        "gh-pages": "^3.1.0",
+        "webpack": "^4.44.2",
+        "webpack-cli": "^4.7.0",
+        "webpack-dev-server": "^3.11.1"
+    },
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/RuslanLaptev98/myportfolio.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/RuslanLaptev98/myportfolio/issues"
+    },
+    "description": ""
 }
