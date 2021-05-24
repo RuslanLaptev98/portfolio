@@ -90,7 +90,7 @@ function App() {
                                                 <span className="type">
                                                     Type:
                                                 </span>{' '}
-                                                Personal project, SPA
+                                                Personal project
                                             </Typography>
                                             <Typography>
                                                 <span className="type">
@@ -129,7 +129,7 @@ function App() {
                                                 <span className="type">
                                                     Type:
                                                 </span>{' '}
-                                                Personal project, SPA
+                                                Personal project
                                             </Typography>
                                             <Typography>
                                                 <span className="type">
