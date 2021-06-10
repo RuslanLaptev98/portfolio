@@ -73,6 +73,7 @@ function App() {
                 <div className={classes.toolbar}></div>
                 <Container>
                     <Grid container spacing={3}>
+                        {/* Book Search */}
                         <Grid item xs={12} md={6} lg={4}>
                             <a
                                 href="https://ruslanlaptev-book-search.netlify.app/"
@@ -113,6 +114,8 @@ function App() {
                                 </Card>
                             </a>
                         </Grid>
+
+                        {/* Crypto */}
                         <Grid item xs={12} md={6} lg={4}>
                             <a
                                 href="https://ruslanlaptev98.github.io/crypto/"
@@ -153,6 +156,8 @@ function App() {
                                 </Card>
                             </a>
                         </Grid>
+
+                        {/* Weather */}
                         <Grid item xs={12} md={6} lg={4}>
                             <a
                                 href="https://ruslanlaptev98.github.io/weather/"
