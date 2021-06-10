@@ -7,6 +7,7 @@ import CardContent from '@material-ui/core/CardContent'
 import CardMedia from '@material-ui/core/CardMedia'
 import CardActionArea from '@material-ui/core/CardActionArea'
 import { createMuiTheme, ThemeProvider } from '@material-ui/core'
+import './assets/book-search.jpg'
 
 const myTheme = createMuiTheme({
     palette: {
@@ -74,6 +75,46 @@ function App() {
                     <Grid container spacing={3}>
                         <Grid item xs={12} md={6} lg={4}>
                             <a
+                                href="https://ruslanlaptev-book-search.netlify.app/"
+                                target="_blank"
+                            >
+                                <Card>
+                                    <CardActionArea>
+                                        <CardMedia
+                                            image="https://i.postimg.cc/gJZDccPP/book-search.jpg"
+                                            title="Book Search"
+                                            className={classes.media}
+                                        ></CardMedia>
+
+                                        <CardContent>
+                                            <Typography>
+                                                <span className="type">
+                                                    Type:
+                                                </span>{' '}
+                                                Web application, test task for
+                                                frontend developer intern
+                                                position
+                                            </Typography>
+                                            <Typography>
+                                                <span className="type">
+                                                    Functionality:
+                                                </span>{' '}
+                                                searches for books using Open
+                                                Library API
+                                            </Typography>
+                                            <Typography>
+                                                <span className="type">
+                                                    Technologies:
+                                                </span>{' '}
+                                                React JS, JavaScript
+                                            </Typography>
+                                        </CardContent>
+                                    </CardActionArea>
+                                </Card>
+                            </a>
+                        </Grid>
+                        <Grid item xs={12} md={6} lg={4}>
+                            <a
                                 href="https://ruslanlaptev98.github.io/crypto/"
                                 target="_blank"
                             >
@@ -90,7 +131,8 @@ function App() {
                                                 <span className="type">
                                                     Type:
                                                 </span>{' '}
-                                                Personal project
+                                                Web application, personal
+                                                project
                                             </Typography>
                                             <Typography>
                                                 <span className="type">
@@ -103,8 +145,8 @@ function App() {
                                                 <span className="type">
                                                     Technologies:
                                                 </span>{' '}
-                                                Vanilla JS (Fetch API, DOM
-                                                Manipulation), CSS
+                                                JavaScript (Fetch API, DOM
+                                                manipulation)
                                             </Typography>
                                         </CardContent>
                                     </CardActionArea>
@@ -129,7 +171,8 @@ function App() {
                                                 <span className="type">
                                                     Type:
                                                 </span>{' '}
-                                                Personal project
+                                                Web application, personal
+                                                project
                                             </Typography>
                                             <Typography>
                                                 <span className="type">
@@ -142,8 +185,8 @@ function App() {
                                                 <span className="type">
                                                     Technologies:
                                                 </span>{' '}
-                                                Vanilla JS (Fetch API, DOM
-                                                Manipulation), CSS
+                                                JavaScript (Fetch API, DOM
+                                                manipulation)
                                             </Typography>
                                         </CardContent>
                                     </CardActionArea>
