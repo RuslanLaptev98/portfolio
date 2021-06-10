@@ -7,7 +7,7 @@ import CardContent from '@material-ui/core/CardContent'
 import CardMedia from '@material-ui/core/CardMedia'
 import CardActionArea from '@material-ui/core/CardActionArea'
 import { createMuiTheme, ThemeProvider } from '@material-ui/core'
-import './assets/book-search.jpg'
+import Masonry from 'react-masonry-css'
 
 const myTheme = createMuiTheme({
     palette: {
@@ -31,6 +31,11 @@ const useStyles = makeStyles((theme) => {
 
 function App() {
     const classes = useStyles()
+    const breakpoints = {
+        default: 3,
+        1100: 2,
+        700: 1,
+    }
     return (
         <div className="App">
             <ThemeProvider theme={myTheme}>
@@ -72,9 +77,14 @@ function App() {
                 </AppBar>
                 <div className={classes.toolbar}></div>
                 <Container>
-                    <Grid container spacing={3}>
+                    {/* Masonry */}
+                    <Masonry
+                        breakpointCols={breakpoints}
+                        className="my-masonry-grid"
+                        columnClassName="my-masonry-grid_column"
+                    >
                         {/* Book Search */}
-                        <Grid item xs={12} md={6} lg={4}>
+                        <div>
                             <a
                                 href="https://ruslanlaptev-book-search.netlify.app/"
                                 target="_blank"
@@ -113,10 +123,10 @@ function App() {
                                     </CardActionArea>
                                 </Card>
                             </a>
-                        </Grid>
+                        </div>
 
                         {/* Crypto */}
-                        <Grid item xs={12} md={6} lg={4}>
+                        <div>
                             <a
                                 href="https://ruslanlaptev98.github.io/crypto/"
                                 target="_blank"
@@ -155,10 +165,10 @@ function App() {
                                     </CardActionArea>
                                 </Card>
                             </a>
-                        </Grid>
+                        </div>
 
                         {/* Weather */}
-                        <Grid item xs={12} md={6} lg={4}>
+                        <div>
                             <a
                                 href="https://ruslanlaptev98.github.io/weather/"
                                 target="_blank"
@@ -197,8 +207,8 @@ function App() {
                                     </CardActionArea>
                                 </Card>
                             </a>
-                        </Grid>
-                    </Grid>
+                        </div>
+                    </Masonry>
                 </Container>
             </ThemeProvider>
         </div>
