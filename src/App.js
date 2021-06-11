@@ -83,6 +83,47 @@ function App() {
                         className="my-masonry-grid"
                         columnClassName="my-masonry-grid_column"
                     >
+                        {/* Flights */}
+                        <div>
+                            <a
+                                href="https://ruslanlaptev-flights.netlify.app/"
+                                target="_blank"
+                            >
+                                <Card>
+                                    <CardActionArea>
+                                        <CardMedia
+                                            image="https://i.postimg.cc/L5dtJQr7/Flights.jpg"
+                                            title="Book Search"
+                                            className={classes.media}
+                                        ></CardMedia>
+
+                                        <CardContent>
+                                            <Typography>
+                                                <span className="type">
+                                                    Type:
+                                                </span>{' '}
+                                                Web application, test task for
+                                                javascript developer position
+                                            </Typography>
+                                            <Typography>
+                                                <span className="type">
+                                                    Functionality:
+                                                </span>{' '}
+                                                renders and sorts given flights
+                                                by price and travel time
+                                            </Typography>
+                                            <Typography>
+                                                <span className="type">
+                                                    Technologies:
+                                                </span>{' '}
+                                                React JS, JavaScript
+                                            </Typography>
+                                        </CardContent>
+                                    </CardActionArea>
+                                </Card>
+                            </a>
+                        </div>
+
                         {/* Book Search */}
                         <div>
                             <a
