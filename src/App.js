@@ -1,7 +1,6 @@
 import { makeStyles } from '@material-ui/core'
 import { AppBar, Toolbar, Typography } from '@material-ui/core'
 import Container from '@material-ui/core/Container'
-import Grid from '@material-ui/core/Grid'
 import Card from '@material-ui/core/Card'
 import CardContent from '@material-ui/core/CardContent'
 import CardMedia from '@material-ui/core/CardMedia'
@@ -242,7 +241,7 @@ function App() {
                                                     Technologies:
                                                 </span>{' '}
                                                 JavaScript (Fetch API, DOM
-                                                manipulation)
+                                                manipulation), SCSS
                                             </Typography>
                                         </CardContent>
                                     </CardActionArea>
