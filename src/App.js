@@ -200,7 +200,7 @@ function App() {
                                                     Technologies:
                                                 </span>{' '}
                                                 JavaScript (Fetch API, DOM
-                                                manipulation)
+                                                manipulation), SCSS
                                             </Typography>
                                         </CardContent>
                                     </CardActionArea>
