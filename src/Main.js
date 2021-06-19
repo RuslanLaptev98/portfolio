@@ -20,7 +20,7 @@ export default function Main({ breakpoints, media }) {
                     title="Flights"
                     type="Web application, test task for JavaScript Developer position"
                     functionality="renders and sorts given flights by price and travel time"
-                    technologies="React JS, JavaScript"
+                    technologies="React JS, JavaScript, SCSS"
                 />
 
                 {/* Book Search */}
@@ -31,7 +31,7 @@ export default function Main({ breakpoints, media }) {
                     title="Book Search"
                     type="Web application, test task for Frontend Developer Intern position"
                     functionality="searches for books using Open Library API"
-                    technologies="React JS, JavaScript"
+                    technologies="React JS, JavaScript, SCSS"
                 />
 
                 {/* Crypto */}
