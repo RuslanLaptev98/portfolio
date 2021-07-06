@@ -21,6 +21,7 @@ export default function Main({ breakpoints, media }) {
                     type="React web application, test task for a Frontend Developer Intern position"
                     functionality="10 questions quiz app using Open Trivia DB API"
                     technologies="React JS, JavaScript, SCSS"
+                    codelink="https://github.com/RuslanLaptev98/questionnaire"
                 />
 
                 {/* Flights */}
@@ -32,6 +33,7 @@ export default function Main({ breakpoints, media }) {
                     type="React web application, test task for JavaScript Developer position"
                     functionality="renders and sorts given flights by price and travel time"
                     technologies="React JS, JavaScript, SCSS"
+                    codelink="https://github.com/RuslanLaptev98/flights"
                 />
 
                 {/* Book Search */}
@@ -43,6 +45,7 @@ export default function Main({ breakpoints, media }) {
                     type="React web application, test task for Frontend Developer Intern position"
                     functionality="searches for books using Open Library API"
                     technologies="React JS, JavaScript, SCSS"
+                    codelink="https://github.com/RuslanLaptev98/book-search"
                 />
 
                 {/* Crypto */}
@@ -54,6 +57,7 @@ export default function Main({ breakpoints, media }) {
                     type="Web application, personal project"
                     functionality="shows current cryptocurrency to fiat currency exchange rates"
                     technologies="JavaScript (Fetch API, DOM Manipulation), SCSS"
+                    codelink="https://github.com/RuslanLaptev98/crypto"
                 />
 
                 {/* Weather */}
@@ -65,6 +69,7 @@ export default function Main({ breakpoints, media }) {
                     type="Web application, personal project"
                     functionality="shows current weather in Moscow and St.Petersburg"
                     technologies="JavaScript (Fetch API, DOM Manipulation), SCSS"
+                    codelink="https://github.com/RuslanLaptev98/weather"
                 />
             </Masonry>
         </Container>
