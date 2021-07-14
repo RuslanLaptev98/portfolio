@@ -60,7 +60,7 @@ export default function Main({ breakpoints, media }) {
                     codelink="https://github.com/RuslanLaptev98/crypto"
                 />
 
-                {/* Weather */}
+                {/* Weather 
                 <ProjectCard
                     media={media}
                     link="https://ruslanlaptev98.github.io/weather/"
@@ -70,7 +70,7 @@ export default function Main({ breakpoints, media }) {
                     functionality="shows current weather in Moscow and St.Petersburg"
                     technologies="JavaScript (Fetch API, DOM Manipulation), SCSS"
                     codelink="https://github.com/RuslanLaptev98/weather"
-                />
+                />*/}
             </Masonry>
         </Container>
     )
