@@ -6,7 +6,7 @@ export default function Header({ title }) {
         <AppBar elevation={0}>
             <Toolbar>
                 <Typography className={title}>
-                    Web Developer Portfolio
+                    Frontend Developer Portfolio
                 </Typography>
 
                 <Typography>

@@ -12,42 +12,6 @@ export default function Main({ breakpoints, media }) {
                 className="my-masonry-grid"
                 columnClassName="my-masonry-grid_column"
             >
-                {/* Questionnaire */}
-                <ProjectCard
-                    media={media}
-                    link="https://ruslanlaptev-questionnaire.netlify.app/"
-                    image="https://i.postimg.cc/QCSzNWVr/questionnaire-logo.png"
-                    title="Questionnaire"
-                    type="React web application, test task for a Frontend Developer Intern position"
-                    functionality="10 questions quiz app using Open Trivia DB API"
-                    technologies="React JS, JavaScript, SCSS"
-                    codelink="https://github.com/RuslanLaptev98/questionnaire"
-                />
-
-                {/* Flights */}
-                <ProjectCard
-                    media={media}
-                    link="https://ruslanlaptev-flights.netlify.app/"
-                    image="https://i.postimg.cc/L5dtJQr7/Flights.jpg"
-                    title="Flights"
-                    type="React web application, test task for JavaScript Developer position"
-                    functionality="renders and sorts given flights by price and travel time"
-                    technologies="React JS, JavaScript, SCSS"
-                    codelink="https://github.com/RuslanLaptev98/flights"
-                />
-
-                {/* Book Search */}
-                <ProjectCard
-                    media={media}
-                    link="https://ruslanlaptev-book-search.netlify.app/"
-                    image="https://i.postimg.cc/gJZDccPP/book-search.jpg"
-                    title="Book Search"
-                    type="React web application, test task for Frontend Developer Intern position"
-                    functionality="searches for books using Open Library API"
-                    technologies="React JS, JavaScript, SCSS"
-                    codelink="https://github.com/RuslanLaptev98/book-search"
-                />
-
                 {/* Crypto */}
                 <ProjectCard
                     media={media}
@@ -60,6 +24,39 @@ export default function Main({ breakpoints, media }) {
                     codelink="https://github.com/RuslanLaptev98/crypto"
                 />
 
+                {/* Questionnaire */}
+                <ProjectCard
+                    media={media}
+                    link="https://ruslanlaptev-questionnaire.netlify.app/"
+                    image="https://i.postimg.cc/QCSzNWVr/questionnaire-logo.png"
+                    title="Questionnaire"
+                    type="React web application, test task for a Frontend Developer Intern position"
+                    functionality="10 questions quiz app using Open Trivia DB API"
+                    technologies="React JS, JavaScript, SCSS"
+                    codelink="https://github.com/RuslanLaptev98/questionnaire"
+                />
+                {/* Book Search */}
+                <ProjectCard
+                    media={media}
+                    link="https://ruslanlaptev-book-search.netlify.app/"
+                    image="https://i.postimg.cc/gJZDccPP/book-search.jpg"
+                    title="Book Search"
+                    type="React web application, test task for Frontend Developer Intern position"
+                    functionality="searches for books using Open Library API"
+                    technologies="React JS, JavaScript, SCSS"
+                    codelink="https://github.com/RuslanLaptev98/book-search"
+                />
+                {/* Flights */}
+                <ProjectCard
+                    media={media}
+                    link="https://ruslanlaptev-flights.netlify.app/"
+                    image="https://i.postimg.cc/L5dtJQr7/Flights.jpg"
+                    title="Flights"
+                    type="React web application, test task for JavaScript Developer position"
+                    functionality="renders and sorts given flights by price and travel time"
+                    technologies="React JS, JavaScript, SCSS"
+                    codelink="https://github.com/RuslanLaptev98/flights"
+                />
                 {/* Weather 
                 <ProjectCard
                     media={media}
