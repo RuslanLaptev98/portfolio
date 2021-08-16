@@ -6,6 +6,7 @@ import CardMedia from '@material-ui/core/CardMedia'
 import CardActionArea from '@material-ui/core/CardActionArea'
 
 export default function ProjectCard({
+    other,
     media,
     link,
     image,
@@ -27,6 +28,7 @@ export default function ProjectCard({
                         ></CardMedia>
 
                         <CardContent>
+                            {other && <Typography>{other}</Typography>}
                             <Typography>
                                 <span className="type">Type:</span> {type}
                             </Typography>

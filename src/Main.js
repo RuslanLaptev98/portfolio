@@ -12,16 +12,17 @@ export default function Main({ breakpoints, media }) {
                 className="my-masonry-grid"
                 columnClassName="my-masonry-grid_column"
             >
-                {/* Crypto */}
+                {/* Crypto v2*/}
                 <ProjectCard
+                    other="code name: crypto v2, currently in development"
                     media={media}
-                    link="https://ruslanlaptev98.github.io/crypto/"
+                    link="https://code-name-crypto.netlify.app/"
                     image="https://i.postimg.cc/pVgNsw25/crypto.jpg"
-                    title="Crypto"
-                    type="Web application, personal project"
-                    functionality="shows current cryptocurrency to fiat currency exchange rates"
-                    technologies="JavaScript (Fetch API, DOM Manipulation), SCSS"
-                    codelink="https://github.com/RuslanLaptev98/crypto"
+                    title="Crypto v2"
+                    type="SPA, personal project"
+                    functionality="shows current cryptocurrency to fiat currency exchange rates with Chart JS, shows news about cryptocurrency using external API"
+                    technologies="JavaScript, React JS, Chart JS"
+                    codelink="https://github.com/RuslanLaptev98/crypto-v2"
                 />
 
                 {/* Questionnaire */}
@@ -56,6 +57,17 @@ export default function Main({ breakpoints, media }) {
                     functionality="renders and sorts given flights by price and travel time"
                     technologies="React JS, JavaScript, SCSS"
                     codelink="https://github.com/RuslanLaptev98/flights"
+                />
+                {/* Crypto */}
+                <ProjectCard
+                    media={media}
+                    link="https://ruslanlaptev98.github.io/crypto/"
+                    image="https://i.postimg.cc/pVgNsw25/crypto.jpg"
+                    title="Crypto"
+                    type="Web application, personal project"
+                    functionality="shows current cryptocurrency to fiat currency exchange rates"
+                    technologies="JavaScript (Fetch API, DOM Manipulation), SCSS"
+                    codelink="https://github.com/RuslanLaptev98/crypto"
                 />
                 {/* Weather */}
                 <ProjectCard
