@@ -40,3 +40,42 @@ a {
     /*background: grey;*/
     margin-bottom: 30px;
 }
+
+.my-text {
+    padding-left: 10px;
+}
+.my-right-text {
+    padding-right: 10px;
+    display: flex;
+}
+
+.customTypo {
+    padding: 15px 0;
+    color: #212121;
+}
+
+@media screen and (min-width: 1250px) {
+    .my-text {
+        padding-left: 100px;
+    }
+    .my-right-text {
+        padding-right: 100px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .my-right-text {
+        display: block;
+        text-align: center;
+        padding: 0;
+    }
+    .my-text {
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .customTypo {
+        padding-top: 0px;
+    }
+}

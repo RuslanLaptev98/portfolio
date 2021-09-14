@@ -2,40 +2,65 @@ import React from 'react'
 import Container from '@material-ui/core/Container'
 import Masonry from 'react-masonry-css'
 import ProjectCard from './ProjectCard'
+import { Typography } from '@material-ui/core'
 
 export default function Main({ breakpoints, media }) {
     return (
-        <Container>
+        <Container style={{ marginTop: '20px' }}>
+            <div className="customTypo">
+                <Typography variant="h6">Frontend Projects</Typography>
+            </div>
+
             {/* Masonry */}
             <Masonry
                 breakpointCols={breakpoints}
                 className="my-masonry-grid"
                 columnClassName="my-masonry-grid_column"
             >
+                {/* Explore Books v2*/}
+                <ProjectCard
+                    media={media}
+                    link="https://explore-books.netlify.app/"
+                    image="https://i.postimg.cc/cC2ZsPPf/explore-books.jpg"
+                    title="Explore Books"
+                    type="React web application, test task for Junior Frontend Developer position"
+                    functionality="searches for books using Google Books API"
+                    technologies="JavaScript, React JS, Redux"
+                    codelink="https://github.com/RuslanLaptev98/explore-books"
+                />
                 {/* Crypto v2*/}
                 <ProjectCard
-                    other="code name: crypto v2, currently in development"
+                    other="v2, currently in development"
                     media={media}
                     link="https://code-name-crypto.netlify.app/"
                     image="https://i.postimg.cc/pVgNsw25/crypto.jpg"
                     title="Crypto v2"
-                    type="SPA, personal project"
+                    type="React web application, personal project"
                     functionality="shows current cryptocurrency to fiat currency exchange rates with Chart JS, shows news about cryptocurrency using external API"
                     technologies="JavaScript, React JS, Chart JS"
                     codelink="https://github.com/RuslanLaptev98/crypto-v2"
                 />
-
                 {/* Questionnaire */}
                 <ProjectCard
                     media={media}
                     link="https://ruslanlaptev-questionnaire.netlify.app/"
                     image="https://i.postimg.cc/QCSzNWVr/questionnaire-logo.png"
                     title="Questionnaire"
-                    type="React web application, test task for a Frontend Developer Intern position"
+                    type="React web application, test task for Frontend Developer Intern position"
                     functionality="10 questions quiz app using Open Trivia DB API"
                     technologies="React JS, JavaScript, SCSS"
                     codelink="https://github.com/RuslanLaptev98/questionnaire"
                 />
+            </Masonry>
+
+            <div className="customTypo">
+                <Typography variant="h6">Archived Projects</Typography>
+            </div>
+            <Masonry
+                breakpointCols={breakpoints}
+                className="my-masonry-grid"
+                columnClassName="my-masonry-grid_column"
+            >
                 {/* Book Search */}
                 <ProjectCard
                     media={media}

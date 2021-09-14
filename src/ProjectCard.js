@@ -28,7 +28,11 @@ export default function ProjectCard({
                         ></CardMedia>
 
                         <CardContent>
-                            {other && <Typography>{other}</Typography>}
+                            {other && (
+                                <Typography>
+                                    <em style={{ opacity: 0.5 }}>{other}</em>
+                                </Typography>
+                            )}
                             <Typography>
                                 <span className="type">Type:</span> {type}
                             </Typography>
