@@ -7,7 +7,7 @@ export default function Header({ title }) {
             <div className="container2">
                 <Toolbar>
                     <Typography className={title}>
-                        <p className="my-text">Frontend Developer Portfolio</p>
+                        <p className="my-text">Software Developer Portfolio</p>
                     </Typography>
 
                     <Typography>
