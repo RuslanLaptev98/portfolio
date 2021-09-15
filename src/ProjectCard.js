@@ -44,17 +44,19 @@ export default function ProjectCard({
                                 <span className="type">Technologies:</span>{' '}
                                 {technologies}
                             </Typography>
-                            <Typography>
-                                <span className="type">Code:</span>
-                                <a
-                                    href={codelink}
-                                    target="_blank"
-                                    className="card__link"
-                                >
-                                    <i className="fab fa-github card__icon"></i>
-                                    Github link
-                                </a>
-                            </Typography>
+                            {codelink && (
+                                <Typography>
+                                    <span className="type">Code:</span>
+                                    <a
+                                        href={codelink}
+                                        target="_blank"
+                                        className="card__link"
+                                    >
+                                        <i className="fab fa-github card__icon"></i>
+                                        Github link
+                                    </a>
+                                </Typography>
+                            )}
                         </CardContent>
                     </CardActionArea>
                 </Card>

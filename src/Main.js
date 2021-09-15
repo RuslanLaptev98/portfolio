@@ -54,6 +54,26 @@ export default function Main({ breakpoints, media }) {
             </Masonry>
 
             <div className="customTypo">
+                <Typography variant="h6">Backend Projects</Typography>
+            </div>
+            <Masonry
+                breakpointCols={breakpoints}
+                className="my-masonry-grid"
+                columnClassName="my-masonry-grid_column"
+            >
+                {/* Ocean`s */}
+                <ProjectCard
+                    media={media}
+                    link="https://vk.com/oceanstherapy"
+                    image="https://i.postimg.cc/Dy8t15vR/oceans.jpg"
+                    title="Ocean`s"
+                    type="Node.js & mongoDB server application"
+                    functionality="The chat bot sends the user his/her portrait depending on his/her answers in the community polls"
+                    technologies="Node.js, mongoDB, VK API"
+                />
+            </Masonry>
+
+            <div className="customTypo">
                 <Typography variant="h6">Archived Projects</Typography>
             </div>
             <Masonry
